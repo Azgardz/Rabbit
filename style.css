@@ -1,0 +1,102 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0dcdc;
+  margin: 0;
+}
+
+.gift-card {
+  background-color: #fff;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  overflow: hidden;
+}
+
+.header p {
+ color: white;
+}
+
+.header {
+  background-color: blue;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px 10px 0px 0px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.content {
+  font-size: 15px;
+  font-weight: 100px;
+  line-height: 1.5em;
+  padding: 0px ;
+  margin: 0px;
+  height: relative;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#btn_music {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  padding: 5px;
+  border: 1px solid grey;
+}
+
+.footer {
+  text-align: center;
+  background-color: mediumblue;
+  height: 50px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 1em;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+.button-yes {
+  background-color: rgb(69, 236, 181);
+  color: #fff;
+}
+
+.button-no {
+  background-color: crimson;
+  color: #fff;
+}
+
+button:hover {
+  background-color: grey;
+}
